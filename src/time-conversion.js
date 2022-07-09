@@ -44,7 +44,7 @@ function timeConversion(s) {
 }
 
 function main() {
-  const inputString = "01:05:45AM";
+  const inputString = "12:05:45AM";
   console.log("inputString ", inputString);
 
   const result = timeConversion(inputString);
