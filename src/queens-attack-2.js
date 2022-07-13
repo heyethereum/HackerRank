@@ -128,7 +128,7 @@ function readLine() {
  *  5. 2D_INTEGER_ARRAY obstacles
  */
 
-function queensAttack(n, k, qx, qy, obstacles) {
+function queensAttack(n, _k, qx, qy, obstacles) {
   // Write your code here
   let top = qy - 1;
   let right = n - qx;
