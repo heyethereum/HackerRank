@@ -18,7 +18,7 @@ function readLine() {
 
 function birthdayCakeCandles(candles) {
   // Write your code here
-  const max = candles.reduce((a, b) => Math.max(a, b), 0);
+  const max = Math.max(...candles);
   const number = candles.filter((candle) => candle === max);
   return number.length;
 }
