@@ -9,6 +9,7 @@ def solution_brute(A):
         
 def solution_expected_sum(A):
     n = len(A)
-    expected_sum = (n + 1) * (n + 2) // 2
+    # n(n + 1) / 2 calculates natural number 1 .. n
+    expected_sum = (n + 1) * (n + 2) // 2 # calculates sum of 1 .. (n+1) inclusive
     actual_sum = sum(A)
     return expected_sum - actual_sum
